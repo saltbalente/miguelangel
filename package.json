@@ -1,0 +1,24 @@
+{
+  "name": "brujomiguelangel-website",
+  "version": "1.0.0",
+  "description": "Sitio web de Brujo Miguel Angel convertido de AMP a HTML puro",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build process needed for static HTML'",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "static-website",
+    "brujo",
+    "miguel-angel"
+  ],
+  "author": "Brujo Miguel Angel",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
