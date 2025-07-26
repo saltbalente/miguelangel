@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "npx serve .",
-    "build": "echo 'No build process needed for static HTML'",
+    "build": "mkdir -p public && cp index.html public/",
     "start": "npx serve ."
   },
   "keywords": [

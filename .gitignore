@@ -70,6 +70,7 @@ Thumbs.db
 .cache/
 dist/
 build/
+public/
 
 # Logs
 logs
