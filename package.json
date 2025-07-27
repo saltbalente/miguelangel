@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "npx serve .",
-    "build": "mkdir -p public && cp index.html public/",
+    "build": "mkdir -p public && cp -r * public/ && rm -rf public/node_modules public/.git public/public",
     "start": "npx serve ."
   },
   "keywords": [
